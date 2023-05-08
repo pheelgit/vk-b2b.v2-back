@@ -3,6 +3,8 @@ import express, { json } from 'express'
 const app = express()
 app.use(express.json())
 
+console.log('test push origin')
+
 app.get('/', (req, res) => {
   res.send('hello')
 })
